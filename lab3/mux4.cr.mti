@@ -1,0 +1,15 @@
+C:/Users/19087/Desktop/lab3/mux4_sim.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/lab3/mux4_sim.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux4_sim
+
+Top level modules:
+	mux4_sim
+
+} {} {}} C:/Users/19087/Desktop/lab3/mux4.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/lab3/mux4.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}}

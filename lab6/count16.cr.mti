@@ -1,0 +1,15 @@
+D:/lab/verilog_lab/lab6/count16.v {1 {vlog -work work -novopt -stats=none {D:\lab\verilog_lab\lab6\count16.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module count16
+
+Top level modules:
+	count16
+
+} {} {}} D:/lab/verilog_lab/lab6/cnt16_tb.v {1 {vlog -work work -novopt -stats=none D:/lab/verilog_lab/lab6/cnt16_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cnt16_tb
+
+Top level modules:
+	cnt16_tb
+
+} {} {}}

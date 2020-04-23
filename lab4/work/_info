@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/19087/Desktop/lab3
+T_opt
+!s110 1543655578
+V1gKSS@ZG^7YJL]Ncf8P4^1
+04 9 4 work seven_sim fast 0
+=1-80fa5b4c58e4-5c02509a-14e-1cf4
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+R0
+vseven
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;kQIzVhzB4J38eAEhoSom3
+I6j1C[UeESLgMCZ_]2JoUe2
+Z2 dC:/Users/19087/Desktop/lab4
+w1458031366
+8C:/Users/19087/Desktop/lab4/seven.v
+FC:/Users/19087/Desktop/lab4/seven.v
+L0 1
+Z3 OL;L;10.4;61
+!s108 1543655564.891000
+!s107 C:/Users/19087/Desktop/lab4/seven.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/19087/Desktop/lab4/seven.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vseven_sim
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 T;:6JI[i8k@]VofnIj^l=2
+ITJV<K@95_f@LHbI9T;6nC3
+R2
+w1435236194
+8C:/Users/19087/Desktop/lab4/seven_sim.v
+FC:/Users/19087/Desktop/lab4/seven_sim.v
+L0 2
+R3
+!s108 1543655564.782000
+!s107 C:/Users/19087/Desktop/lab4/seven_sim.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/19087/Desktop/lab4/seven_sim.v|
+!i113 0
+R4

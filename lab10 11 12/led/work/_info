@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/19087/Desktop/check
+vled
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 mHJH_HHH]A[M8aJ_WK_9d2
+ICXOM=Y@V6lSZnRI2QnB?P2
+Z1 dC:/Users/19087/Desktop/last2/led
+w1545895391
+8C:/Users/19087/Desktop/last2/led/led.v
+FC:/Users/19087/Desktop/last2/led/led.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1545997789.134000
+!s107 C:/Users/19087/Desktop/last2/led/led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/19087/Desktop/last2/led/led.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vledsim
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 UH_F^_R]ONb>?ZckRV1@13
+I[I1;[>KIN7d6E1JSZDSZW0
+R1
+w1545895411
+8C:/Users/19087/Desktop/last2/led/ledsim.v
+FC:/Users/19087/Desktop/last2/led/ledsim.v
+L0 2
+R2
+!s108 1545997789.260000
+!s107 C:/Users/19087/Desktop/last2/led/ledsim.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/19087/Desktop/last2/led/ledsim.v|
+!i113 0
+R3

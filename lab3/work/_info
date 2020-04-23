@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/19087/Desktop/lab2
+vmux4
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 _Wdf=Bh>2j_d5Wn>15_7`3
+IildGj5ChJ8n^8lYn[[6cJ0
+Z1 dC:/Users/19087/Desktop/lab3
+w1458031256
+8C:/Users/19087/Desktop/lab3/mux4.v
+FC:/Users/19087/Desktop/lab3/mux4.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1543655344.089000
+!s107 C:/Users/19087/Desktop/lab3/mux4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/19087/Desktop/lab3/mux4.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vmux4_sim
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 IU:Sb98LNQ^z0E2a;EW2^2
+I81`k@EoIeb>K:h>RIAWkY0
+R1
+w1458784324
+8C:/Users/19087/Desktop/lab3/mux4_sim.v
+FC:/Users/19087/Desktop/lab3/mux4_sim.v
+L0 2
+R2
+!s108 1543655344.209000
+!s107 C:/Users/19087/Desktop/lab3/mux4_sim.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/19087/Desktop/lab3/mux4_sim.v|
+!i113 0
+R3

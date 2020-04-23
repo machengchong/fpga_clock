@@ -1,0 +1,36 @@
+C:/Users/19087/Desktop/last/check/check_sim.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/last/check/check_sim.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module check_sim
+
+Top level modules:
+	check_sim
+
+} {} {}} C:/Users/19087/Desktop/last/check/check.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/last/check/check.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module check
+
+Top level modules:
+	check
+
+} {} {}} C:/Users/19087/Desktop/lb6/check/check_sim.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/lb6/check/check_sim.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module check_sim
+
+Top level modules:
+	check_sim
+
+} {} {}} C:/Users/19087/Desktop/check/check_sim.v {1 {vlog -work work -vopt -stats=none {C:\Users\19087\Desktop\check\check_sim.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module check_sim
+
+Top level modules:
+	check_sim
+
+} {} {}} C:/Users/19087/Desktop/check/check.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/check/check.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module check
+
+Top level modules:
+	check
+
+} {} {}}

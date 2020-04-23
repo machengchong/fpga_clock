@@ -1,0 +1,31 @@
+C:/Users/19087/Desktop/counter/counter.v {1 {vlog -work work -vopt -stats=none {C:\Users\19087\Desktop\counter\counter.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/19087/Desktop/counter/counter_sim.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/counter/counter_sim.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter_sim
+
+Top level modules:
+	counter_sim
+
+} {} {}} C:/Users/19087/Desktop/last2/counter/counter.v {1 {vlog -work work -vopt -stats=none {C:\Users\19087\Desktop\last2\counter\counter.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/19087/Desktop/last2/counter/counter_sim.v {2 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/last2/counter/counter_sim.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter_sim
+** Warning: C:/Users/19087/Desktop/last2/counter/counter_sim.v(49): (vlog-2597) '2500000000' is being treated as 32-bit signed integer and will overflow.
+
+
+Top level modules:
+	counter_sim
+
+} {} {}}

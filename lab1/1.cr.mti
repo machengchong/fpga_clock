@@ -1,0 +1,43 @@
+C:/Users/19087/Desktop/LAB/lab1/tb_adder.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/LAB/lab1/tb_adder.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_sim
+
+Top level modules:
+	adder_sim
+
+} {} {}} C:/Users/19087/Desktop/lab1/tb-add.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/lab1/tb-add.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_sim
+
+Top level modules:
+	adder_sim
+
+} {} {}} C:/Users/19087/Desktop/lab1/adder.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/lab1/adder.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/19087/Desktop/lab1/add.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/lab1/add.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/19087/Desktop/lab1/tb_adder.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/lab1/tb_adder.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_sim
+
+Top level modules:
+	adder_sim
+
+} {} {}} C:/Users/19087/Desktop/LAB/lab1/adder.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/LAB/lab1/adder.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}}

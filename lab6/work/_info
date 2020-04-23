@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/lab/verilog_lab/reed_muller_decoder
+vcnt16_tb
+Z0 !s110 1543736288
+!i10b 1
+!s100 S;WSNc^maD8WPTU<z?BHR0
+I^SMgiddO_C>GekJ]C0zhQ3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/lab/verilog_lab/lab6
+w1543733606
+8D:/lab/verilog_lab/lab6/cnt16_tb.v
+FD:/lab/verilog_lab/lab6/cnt16_tb.v
+L0 7
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1543736288.704000
+!s107 D:/lab/verilog_lab/lab6/cnt16_tb.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|D:/lab/verilog_lab/lab6/cnt16_tb.v|
+!i113 1
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcount16
+R0
+!i10b 1
+!s100 N[D>AZ?GNlnNV<QWMU?I^1
+I0@@V^[5aUP@IQ[f5mCNDh1
+R1
+R2
+w1543733620
+8D:\lab\verilog_lab\lab6\count16.v
+FD:\lab\verilog_lab\lab6\count16.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1543736288.652000
+!s107 D:\lab\verilog_lab\lab6\count16.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|D:\lab\verilog_lab\lab6\count16.v|
+!i113 1
+R4

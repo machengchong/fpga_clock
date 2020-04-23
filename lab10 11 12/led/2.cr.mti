@@ -1,0 +1,15 @@
+C:/Users/19087/Desktop/last2/led/led.v {1 {vlog -work work -vopt -stats=none {C:\Users\19087\Desktop\last2\led\led.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module led
+
+Top level modules:
+	led
+
+} {} {}} C:/Users/19087/Desktop/last2/led/ledsim.v {1 {vlog -work work -vopt -stats=none {C:\Users\19087\Desktop\last2\led\ledsim.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ledsim
+
+Top level modules:
+	ledsim
+
+} {} {}}

@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/19087/Desktop/lb6/check
+vcounter
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 dWg^=iZfo_kLS1cIHgTz@1
+IT`YIfD3]6;CFNodKG`3kC0
+Z1 dC:/Users/19087/Desktop/last2/counter
+w1545894549
+8C:/Users/19087/Desktop/last2/counter/counter.v
+FC:/Users/19087/Desktop/last2/counter/counter.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1545921161.322000
+!s107 C:/Users/19087/Desktop/last2/counter/counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/19087/Desktop/last2/counter/counter.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcounter_sim
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 hK_?oWNH8zNO_hWW[hLHH3
+I8eR>k9>1>h1<bKDZBYcC;3
+R1
+w1545921155
+8C:/Users/19087/Desktop/last2/counter/counter_sim.v
+FC:/Users/19087/Desktop/last2/counter/counter_sim.v
+L0 2
+R2
+!s108 1545921161.432000
+!s107 C:/Users/19087/Desktop/last2/counter/counter_sim.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/19087/Desktop/last2/counter/counter_sim.v|
+!i113 0
+R3

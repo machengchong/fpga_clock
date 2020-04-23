@@ -1,0 +1,49 @@
+run 1us
+#                    0 << Starting the Simulation >>
+#                    0clk_50=0, rst_l=0, enable_l=1, load_l=1,count_in=0, cnt_out=x, oe_l=0, count_tri=x
+#                    1clk_50=0, rst_l=0, enable_l=1, load_l=1,count_in=0, cnt_out=0, oe_l=0, count_tri=0
+#                   10clk_50=1, rst_l=0, enable_l=1, load_l=1,count_in=0, cnt_out=0, oe_l=0, count_tri=0
+#                   20 << Coming out of reset >>
+#                   20clk_50=0, rst_l=1, enable_l=1, load_l=1,count_in=0, cnt_out=0, oe_l=0, count_tri=0
+#                   30clk_50=1, rst_l=1, enable_l=1, load_l=1,count_in=0, cnt_out=0, oe_l=0, count_tri=0
+#                   40 << Loading the counter with a >>
+#                   40clk_50=0, rst_l=1, enable_l=1, load_l=0,count_in=a, cnt_out=0, oe_l=0, count_tri=0
+#                   50clk_50=1, rst_l=1, enable_l=1, load_l=0,count_in=a, cnt_out=0, oe_l=0, count_tri=0
+#                   51clk_50=1, rst_l=1, enable_l=1, load_l=0,count_in=a, cnt_out=a, oe_l=0, count_tri=a
+#                   60clk_50=0, rst_l=1, enable_l=1, load_l=1,count_in=a, cnt_out=a, oe_l=0, count_tri=a
+#                   70clk_50=1, rst_l=1, enable_l=1, load_l=1,count_in=a, cnt_out=a, oe_l=0, count_tri=a
+#                   80 << Turning ON the count enable >>
+#                   80clk_50=0, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=a, oe_l=0, count_tri=a
+#                   90clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=a, oe_l=0, count_tri=a
+#                   91clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=b, oe_l=0, count_tri=b
+#                  100clk_50=0, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=b, oe_l=0, count_tri=b
+#                  110clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=b, oe_l=0, count_tri=b
+#                  111clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=c, oe_l=0, count_tri=c
+#                  120clk_50=0, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=c, oe_l=0, count_tri=c
+#                  130clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=c, oe_l=0, count_tri=c
+#                  131clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=d, oe_l=0, count_tri=d
+#                  140clk_50=0, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=d, oe_l=0, count_tri=d
+#                  150clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=d, oe_l=0, count_tri=d
+#                  151clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=e, oe_l=0, count_tri=e
+#                  160clk_50=0, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=e, oe_l=0, count_tri=e
+#                  170clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=e, oe_l=0, count_tri=e
+#                  171clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=f, oe_l=0, count_tri=f
+#                  180clk_50=0, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=f, oe_l=0, count_tri=f
+#                  190clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=f, oe_l=0, count_tri=f
+#                  191clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=0, oe_l=0, count_tri=0
+#                  200clk_50=0, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=0, oe_l=0, count_tri=0
+#                  210clk_50=1, rst_l=1, enable_l=0, load_l=1,count_in=a, cnt_out=0, oe_l=0, count_tri=0
+#                  211 << count =  1 - Turning OFF the count enable >>
+#                  211clk_50=1, rst_l=1, enable_l=1, load_l=1,count_in=a, cnt_out=1, oe_l=0, count_tri=1
+#                  220clk_50=0, rst_l=1, enable_l=1, load_l=1,count_in=a, cnt_out=1, oe_l=0, count_tri=1
+#                  230clk_50=1, rst_l=1, enable_l=1, load_l=1,count_in=a, cnt_out=1, oe_l=0, count_tri=1
+#                  240clk_50=0, rst_l=1, enable_l=1, load_l=1,count_in=a, cnt_out=1, oe_l=0, count_tri=1
+#                  250clk_50=1, rst_l=1, enable_l=1, load_l=1,count_in=a, cnt_out=1, oe_l=0, count_tri=1
+#                  251 << Turning OFF the OE >>
+#                  251clk_50=1, rst_l=1, enable_l=1, load_l=1,count_in=a, cnt_out=1, oe_l=1, count_tri=z
+#                  260clk_50=0, rst_l=1, enable_l=1, load_l=1,count_in=a, cnt_out=1, oe_l=1, count_tri=z
+#                  270clk_50=1, rst_l=1, enable_l=1, load_l=1,count_in=a, cnt_out=1, oe_l=1, count_tri=z
+#                  271 << Simulation Complete >>
+# ** Note: $stop    : D:/lab/verilog_lab/lab6/cnt16_tb.v(71)
+#    Time: 271 ns  Iteration: 0  Instance: /cnt16_tb
+# Break in Module cnt16_tb at D:/lab/verilog_lab/lab6/cnt16_tb.v line 71

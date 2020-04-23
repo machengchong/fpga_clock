@@ -1,0 +1,57 @@
+module counter(key_rst_en,key_ps_en,clk,numcount_out);
+    input    key_rst_en,key_ps_en,clk;
+	output   numcount_out;
+	reg      [3:0]stcur_counter,stnext_counter;
+	reg      [3:0]numcount;
+	wire     [3:0]numcount_out;
+	localparam
+            TORST = 4'b0001,
+		    COUNT = 4'b0010,
+		    PAUSE = 4'b0011;
+always @(stcur_counter or key_rst_en or key_ps_en)
+begin
+   case (stcur_counter)
+TORST: 
+     begin
+       if(key_ps_en) stnext_counter<= COUNT;
+         else stnext_counter<= TORST;
+     end
+COUNT: 
+     if (key_rst_en) stnext_counter<=TORST;
+         else
+           begin
+             if(key_ps_en) stnext_counter<=PAUSE;
+             else stnext_counter<=COUNT;
+		   end
+PAUSE:
+     if (key_rst_en) stnext_counter<=TORST;
+         else
+           begin
+             if(key_ps_en) stnext_counter<=COUNT;
+                else stnext_counter<=PAUSE;
+           end
+default: stnext_counter <= TORST;
+   endcase
+end
+
+always @(posedge clk or posedge key_rst_en)
+begin
+     if(key_rst_en) stcur_keyrst <= TORST;
+     else   stcur_counter <= stnext_counter;
+end
+
+always @(posedge clk or posedge key_rst_en)
+begin 
+   if(key_rst_en) numcount <= 4'D0000;
+   else 
+      begin
+	   case(stnext_counter)
+	   TORST: numcount <= 4'D0000;
+	   COUNT: numcount <= numcount + 1;
+	   PAUSE: numcount <= numcount;
+	   default:  numcount <= 4'D0000;
+	   endcase
+	  end
+end
+assign numcount_out = numcount ;
+endmodule

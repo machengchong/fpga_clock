@@ -1,0 +1,39 @@
+`timescale 1 us/1 us
+module counter_sim()
+    reg    key_rst_en,key_ps_en,clk;
+	wire   numcount_out;
+	
+counter u1 (
+     .clk(clk),
+	 .numcount_out(numcount_out),
+	 .key_rst_en(key_rst_en),
+	 .key_ps_en(key_ps_en)
+
+);
+
+always
+begin
+  clk =      1'b0;
+  clk = #500 1'b1;
+        #500;
+       
+end
+
+initial
+begin
+  key_ps_en =       1'b0;
+  key_ps_en = #3000 1'b1;
+  key_ps_en = #1000 1'b0;
+  key_ps_en = #10000000 1'b1;
+  key_ps_en = #1000 1'b0;
+end 
+
+initial
+begin
+  key_rst_en =       1'b1;
+  key_rst_en = #1000 1'b0;
+  key_rst_en = #11000000 1'b1;
+  key_rst_en = #1000 1'b0;
+end 
+
+endmodule

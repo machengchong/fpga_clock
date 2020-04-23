@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/19087/Desktop/clock
+T_opt
+!s110 1546003021
+VVM`4K]`lm9cXY@3ZbCcaj2
+04 9 4 work clock_sim fast 0
+=1-80fa5b4c58e4-5c26224d-c3-32a8
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+R0
+vclock
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 l0TGCkBZO[6Cg3QA6]ZI32
+IZYe;l6zB@2dL0h]T2OZ732
+Z2 dC:/Users/19087/Desktop/clockyes
+w1545908622
+8C:/Users/19087/Desktop/clockyes/clock.v
+FC:/Users/19087/Desktop/clockyes/clock.v
+L0 1
+Z3 OL;L;10.4;61
+!s108 1546003651.665000
+!s107 C:/Users/19087/Desktop/clockyes/clock.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/19087/Desktop/clockyes/clock.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vclock_sim
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 TnTJoDGbV758d<OYOa0JZ3
+IhlB9Fzi:`;7;VKYn7^ZMO0
+R2
+w1546003642
+8C:/Users/19087/Desktop/clockyes/clock_sim.v
+FC:/Users/19087/Desktop/clockyes/clock_sim.v
+L0 2
+R3
+!s108 1546003651.785000
+!s107 C:/Users/19087/Desktop/clockyes/clock_sim.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/19087/Desktop/clockyes/clock_sim.v|
+!i113 0
+R4

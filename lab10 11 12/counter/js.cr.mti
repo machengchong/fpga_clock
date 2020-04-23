@@ -1,0 +1,15 @@
+C:/Users/19087/Desktop/js/counter_sim.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/js/counter_sim.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter_sim
+
+Top level modules:
+	counter_sim
+
+} {} {}} C:/Users/19087/Desktop/js/counter.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/js/counter.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}}

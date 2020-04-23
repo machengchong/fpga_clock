@@ -1,0 +1,15 @@
+C:/Users/19087/Desktop/clockyes/clock.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/clockyes/clock.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module clock
+
+Top level modules:
+	clock
+
+} {} {}} C:/Users/19087/Desktop/clockyes/clock_sim.v {1 {vlog -work work -vopt -stats=none C:/Users/19087/Desktop/clockyes/clock_sim.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module clock_sim
+
+Top level modules:
+	clock_sim
+
+} {} {}}
